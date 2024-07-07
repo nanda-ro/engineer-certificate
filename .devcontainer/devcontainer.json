@@ -1,0 +1,9 @@
+{
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"containerUser": "vscode",
+	"runArgs": [
+		"--gpus=all"
+	]
+}
